@@ -108,6 +108,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #main {
   margin-left: 300px;
+  scroll-snap-type: proximity;
+  scroll-snap-type: y proximity;
 }
 
 @media (max-width: 1199px) {
@@ -252,6 +254,7 @@ h1, h2, h3, h4, h5, h6 {
 section {
   padding: 30px 0;
   overflow: hidden;
+  scroll-snap-align: start;
 }
 
 .section-bg {
@@ -719,7 +722,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  padding-bottom: 130px;
+  padding-bottom: 160px;
 }
 .contact .info {
   padding: 30px;
